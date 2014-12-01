@@ -1,51 +1,105 @@
-/*Finds the zeroes of a given function**/
+/* Author: William G.
+   Pupose: Implementation of Zero Integral theorem and Rational Zero theorem
+   Date  : 11/10/14
+   Instructions: Input the highest degree present in your function f(x) then input the respective
+   				 coefficients for each term in your functon. Note: if the ith power is not present 
+   				 in your function (i.e f(x) does not contain an x^2) then simply set that term's
+   				 coefficient to 0.
+*/
 #include <iostream>
 #include <cstdio>
-#include <vector>
 #include <cmath>
 #include <set>
+#include <vector>
 using namespace std;
 
-int highest_degree;
-int temp_coefficient;
-vector<double> coefficients;
-vector<double> factors;
-set<double> factors_used;
+int highestDegree;
+double coefficient[100];
+bool possible;
+vector<double>leadingCoefficientFactors;
+vector<double>trailingCoefficientFactors;
+vector<double>mergedFactors;
+set<double> usedFactors;
 
+void storeFactors(vector<double>&in, int coef){
+	printf("Factors of %d are: ", abs(coef));
+	coef = abs(coef);
+	for(int i = 1; i <= coef;i++){
+		if(coef%i == 0){
+			printf("± %d ",i);
+			in.push_back(i);
+			in.push_back(-i);
+			usedFactors.insert(i);
+		}
+	}
+	printf("\n");
+}
+void mergeFactors(vector<double>&in, vector<double>&lc, vector<double>&tc){
+	printf("Merged factors of f(x) are: ");
+	for(int i = 0; i < tc.size();i++){
+		for(int j = 0; j < lc.size();j++){
+			if(usedFactors.find(abs(lc[j])/abs(tc[i])) == usedFactors.end()){
+				printf("(± %.2f/%.2f) ",lc[j],tc[i]);
+				in.push_back(abs(lc[j])/abs(tc[i]));
+				in.push_back(-abs(lc[j])/abs(tc[i]));
+				usedFactors.insert(abs(lc[j])/abs(tc[i]));
+			}
+		}
+	}
+	printf("\n");
+}
 int main() {
-	scanf("%d",&highest_degree);
-	for(int i = 0; i < highest_degree){
-		scanf("%d",&temp_coefficient);
-		coefficients.push_back(temp_coefficient);
+	cin >> highestDegree;
+	printf("f(x) = ");
+	for(int i = 0; i <= highestDegree;i++){
+		cin >> coefficient[i];
+		printf("%.2f(x)^%d ",coefficient[i], highestDegree - i);
 	}
-	if(coeffients[0] == 1){
-		for(int i = 1; i <= coefficients[highest_degree-1];i++){
-            if(coefficients[highest_degree-1]%i == 0 && factors_used(i) == factors_used.end()){
-                factors.push_back(i);
-                factors_used.insert(i);
-            }
+	printf("\n");
+	storeFactors(leadingCoefficientFactors, coefficient[0]);
+	storeFactors(trailingCoefficientFactors, coefficient[highestDegree]);
+	if(coefficient[0] != 1)
+		mergeFactors(mergedFactors,leadingCoefficientFactors, trailingCoefficientFactors);
+	
+	possible = false;
+	// substitute leading coefficient factors
+	for(int i = 0; i < leadingCoefficientFactors.size() && !possible;i++){
+		double ans = 0;
+		for(int j = 0; j < highestDegree;j++)
+			ans+= coefficient[j]*pow(leadingCoefficientFactors[i],highestDegree-j);
+		
+		ans+=coefficient[highestDegree];
+		if(ans == 0){
+			printf("P(%.2f) -> 0\n",leadingCoefficientFactors[i]);
+			possible = true;
 		}
 	}
-	else{
-        for(int i = 1; i <= coefficients[highest_degree-1];i++){
-            if(coefficients[highest_degree-1]%i == 0 && factors_used(i) == factors_used.end()){
-                factors.push_back(i);
-                factors_used.insert(i);
-            }
+	// substitute trailing coefficient factors
+	for(int i = 0; i < trailingCoefficientFactors.size() && !possible;i++){
+		double ans = 0;
+		for(int j = 0; j < highestDegree;j++)
+			ans+= coefficient[j]*pow(trailingCoefficientFactors[i],highestDegree-j);
+			
+		ans+=coefficient[highestDegree];
+		if(ans == 0){
+			printf("P(%.2f) -> 0\n",trailingCoefficientFactors[i]);
+			possible = true;
 		}
-		vector<double> lead_factors;
-		for(int i = 1; i <= coefficients[0];i++){
-            if(coefficients[0]%i == 0 && factors_used(i) == factors_used.end()){
-                lead_factors.push_back(i);
-                factors_used.insert(i);
-            }
+	}
+	// substitute merged coefficient factors
+	for(int i = 0; i < mergedFactors.size() && !possible;i++){
+		double ans = 0;
+		for(int j = 0; j < highestDegree;j++)
+			ans+= coefficient[j]*pow(mergedFactors[i],highestDegree-j);
+		
+		ans+=coefficient[highestDegree];
+		if(ans == 0){
+			printf("P(%.2f) -> 0\n",mergedFactors[i]);
+			possible = true;
 		}
-		vector<int>new_coefficients;
-		for(int i = 0; i < coeff)
 	}
-	for(int i = 0; i < high;i++){
-		int eqn = arr[i]*arr[i]*arr[i] + 9*arr[i]*arr[i] + 26*arr[i] + 24;
-		cout << arr[i] << " " << eqn << endl;
-	}
+	if(!possible)
+		printf("No unique solution found\n");
+		
 	return 0;
 }
