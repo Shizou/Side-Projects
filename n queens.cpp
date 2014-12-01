@@ -1,6 +1,6 @@
 /*  Author: William G.
     Date : 11/10/14
-    Pupose: To solve N queens problem
+    Pupose: To solve N queens problem on an R x C grid
 */
 #include<iostream>
 #include<cstdio>
@@ -67,7 +67,6 @@ void rec(int n){
 }
 
 int main(){
-    freopen("input.txt","r",stdin);
     scanf("%d%d%d",&N,&R,&C);
     for(int r = 0; r < R;r++)
         for(int c = 0; c < C;c++)
