@@ -1,3 +1,7 @@
+/*  Author: William G.
+    Date : 11/10/14
+    Pupose: To solve N queens problem
+*/
 #include<iostream>
 #include<cstdio>
 #include<vector>
