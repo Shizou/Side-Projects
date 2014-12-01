@@ -23,7 +23,7 @@ int team_size;
 string input;
 
 const int UBER = 0, OU = 1, UU = 2, RU = 3, NU = 4, LC = 5;
-vector< string > tier[6];// pair< Pokedex number, Pokemon name >
+vector< string > tier[6];
 map<string,int>ctier;
 
 /**Reads in pokemon from text file and places them in their respective tiers*/
