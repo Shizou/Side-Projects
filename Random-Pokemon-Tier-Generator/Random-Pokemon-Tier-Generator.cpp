@@ -1,5 +1,5 @@
 /** Name: William Granados
- *  Date: 06/11/14
+ *  Date: 01/12/14
  *  Purpose: Chooses a random set of pokemon from a specified tier.
  * */
 #include<iostream>
