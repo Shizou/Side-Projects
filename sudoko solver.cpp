@@ -1,3 +1,7 @@
+/*  Author: William G.
+    Date : 12/11/14
+    Pupose: To solve annoying sudoko puzzles on the back of newspapers
+*/
 #include<iostream>
 #include<cstdio>
 #include<cctype>
