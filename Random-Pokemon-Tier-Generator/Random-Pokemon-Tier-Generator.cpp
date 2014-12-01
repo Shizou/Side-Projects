@@ -17,7 +17,7 @@ int team_size;
 string input;
 
 const int UBER = 0, OU = 1, UU = 2, RU = 3, NU = 4, LC = 5;
-vector< string > tier[6];// pair< Pokedex number, Pokemon name >
+vector< string > tier[6];
 map<string,int>ctier;
 
 /**Reads in pokemon from text file and places them in their respective tiers*/
@@ -46,7 +46,7 @@ void init(){
     ctier["UU"] = UU,     ctier["RU"] = RU;
     ctier["NU"] = NU,     ctier["LC"] = LC;
 }
-/**Makes input non-case sensitive for ease in code*/
+/**Makes input non-case sensitive for ease input handling*/
 void refine_input(){
     for(int i = 0; i < input.size();i++)
         input[i] = toupper(input[i]);
