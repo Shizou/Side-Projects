@@ -1,5 +1,5 @@
 /** Name: William Granados
- *  Date: 01/12/14
+ *  Date: 06/11/14
  *  Purpose: Chooses a random set of pokemon from a specified tier.
  * */
 #include<iostream>
@@ -11,13 +11,19 @@
 #include<vector>
 #include<map>
 #include<fstream>
-using namespace std;
+
+using std::cin;
+using std::string;
+using std::vector;
+using std::map;
+using std::ifstream;
+using std::exception;
 
 int team_size;
 string input;
 
 const int UBER = 0, OU = 1, UU = 2, RU = 3, NU = 4, LC = 5;
-vector< string > tier[6];
+vector< string > tier[6];// pair< Pokedex number, Pokemon name >
 map<string,int>ctier;
 
 /**Reads in pokemon from text file and places them in their respective tiers*/
@@ -46,7 +52,7 @@ void init(){
     ctier["UU"] = UU,     ctier["RU"] = RU;
     ctier["NU"] = NU,     ctier["LC"] = LC;
 }
-/**Makes input non-case sensitive for ease input handling*/
+/**Makes input non-case sensitive for ease in code*/
 void refine_input(){
     for(int i = 0; i < input.size();i++)
         input[i] = toupper(input[i]);
