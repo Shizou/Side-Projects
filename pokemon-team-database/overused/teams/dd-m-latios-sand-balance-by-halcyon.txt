@@ -1,0 +1,79 @@
+description-start-line
+
+Don't blame me if Mega Latios does absolutely nothing in matches with this team.
+It's 100% garbage.
+
+DD Mega Latios is completely outclassed in every way by Mega Altaria and Mega
+Charizard X. There is nothing that it does better than those two mons except be
+a bit faster I guess. I went with 192 Speed because no Latios should ever lose
+to a Garchomp, that's just inhumane. The rest goes in HP for some added bulk.
+Changed Scarf Ttar's coverage move to Ice Punch because Lando-t is a pain to the
+core. Excadrill is SD because the only way Lati is sweeping is if all its checks
+are at 30% or below, so I need some power on the team. Manaphy was a cool option
+for luring Ferrothorn and Rotom-W, since both those mons shit on the core as is.
+Tangrowth works as an Azu check and is the primary Keldeo check as well due to
+Latios not being a good one anymore since if it gets burnt it's even more
+useless than normal. Finally, Heatran checks Clefable and Scizor, which are
+major threats to the team without it. It also provides SR, which I always seem
+to forget to use until the last second. Threats to the team are probably belly
+Azu, Lopunny, and Superpower Torn-T. You will find 90% of this team's strengths
+lie in the Manaphy Tangrowth core, with Lati doing next to nothing. If you want
+to make this team better, go for bulky dd altaria>mega Lati or Mega Mane>Lati.
+Either one would be miles better than what you have now. Still, it's what you
+wanted, and it functions decently as a team. Enjoy!
+
+team-start-line
+Latios-Mega (M) @ Latiosite
+Ability: Levitate
+EVs: 64 HP / 252 Atk / 192 Spe
+Jolly Nature
+- Outrage
+- Zen Headbutt
+- Earthquake
+- Dragon Dance
+
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Pursuit
+- Stone Edge
+- Crunch
+- Ice Punch
+
+Excadrill @ Life Orb
+Ability: Sand Rush
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- Rock Slide
+- Return
+
+Manaphy @ Leftovers
+Ability: Hydration
+EVs: 64 HP / 252 SpA / 192 Spe
+Timid Nature
+- Scald
+- Energy Ball
+- Hidden Power [Fire]
+- Tail Glow
+
+Tangrowth @ Assault Vest
+Ability: Regenerator
+EVs: 252 HP / 40 Def / 216 SpD
+Sassy Nature
+- Leaf Storm
+- Knock Off
+- Hidden Power [Ice]
+- Sludge Bomb
+
+Heatran @ Leftovers
+Ability: Flash Fire
+EVs: 252 HP / 212 SpD / 44 Spe
+Calm Nature
+- Lava Plume
+- Stealth Rock
+- Taunt
+- Toxic
+

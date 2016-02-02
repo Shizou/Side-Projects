@@ -1,0 +1,78 @@
+description-start-line
+
+Alright so the core was pretty weak to mostly every physically oriented threat
+there is in the metagame so Landorus-T was added as the check to them as well as
+being the Stealth Rocker of the team. Klefki is the fairy-type check to stuff
+like M-Gardevoir, M-Diancie, etc and acts as the spikes stacker and emergency
+T-Waver if things go out of hand. M-Sceptile was given Earthquake to hit the
+likes of AV Raikou, Heatran, and Klefki while the rest of the moves are pretty
+standard. Starmie's set is pretty standard too and is pretty important for the
+team as it breaks down the likes of Heatran and checks stuff like Keldeo,
+Gengar, Hippowdon, and scares out a lot of things that the team hates. Infernape
+was given a Mixed spread and Gunk Shot which does a ton, almost OHKOes every
+fairy there is, to lure them in. Mach Punch is an option over U-Turn but it's
+not very necessary. Finally, AV Raikou was added to deal with stuff like M-
+Manectric, Thundurus-I and needed another decent switch in to Keldeo so Raikou
+looked like a good fit, it also added VoltTurn to the team which is pretty nice.
+Threats would include DD Zard-X and Y, DD Dragonite, Specs Keldeo, M-
+Manectric+Weavile, SD Talonflame and SD Bisharp all of whom pressure the team to
+quite an extent after setting up.
+
+team-start-line
+Landorus-Therian @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 240 Def / 8 SpD / 8 Spe
+Impish Nature
+- Earthquake
+- U-turn
+- Stone Edge
+- Stealth Rock
+
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 4 Def / 252 SpD
+Careful Nature
+- Spikes
+- Thunder Wave
+- Foul Play
+- Play Rough
+
+Sceptile-Mega @ Sceptilite
+Ability: Lightning Rod
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Leaf Storm
+- Dragon Pulse
+- Earthquake
+- Focus Blast
+
+Starmie @ Life Orb
+Ability: Analytic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 29 HP / 0 Atk
+- Hydro Pump
+- Ice Beam
+- Psyshock
+- Rapid Spin
+
+Infernape @ Life Orb
+Ability: Iron Fist
+EVs: 168 Atk / 88 SpA / 252 Spe
+Naive Nature
+IVs: 29 HP
+- Close Combat
+- Overheat
+- Gunk Shot
+- U-Turn / Mach Punch
+
+Raikou @ Assault Vest
+Ability: Pressure
+EVs: 224 SpA / 32 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Hidden Power [Ice]
+- Shadow Ball
+
+

@@ -1,0 +1,83 @@
+description-start-line
+
+First go around I wasn't focused enough on this project before and it showed in
+the final product; so I'll take more time when releasing these to make sure
+they're actually decent. The first thing I noticed about the original core of
+Alakazam and Mega Aero was that both pokemon have trouble dealing with steels.
+The ones that cause them the most problems are jirachi, bisharp, scizor,
+heatran, and ferrothorn. Since both are great at attracting steels Magnezone was
+added to trap them with magnet pull. I opted for Substitute + Life Orb Magnezone
+for more flexibility on offense and when trapping, to prevent it from being
+useless outside of trapping 1 or 2 steels. You have to make a couple double
+switches against most teams when you feel as though they might bring in their
+steel type (against zam, aero, or clef), but the team is built in such a way
+that this will be easily to accomplish. Chesnaught was added as a defensive
+stopper to physical steel types as well as other threats, it's a great defensive
+mon that can disrupt a lot of popular strategies thanks to its utility and
+typing. Chesnaught's Spikes help weaken walls, which is highly appreciated by
+mega aero and alakazam. I gave Chesnaught some investment in special defense to
+help against electrics. Rotom-W is a nuisance, so adding Wood Hammer over Spiky
+Shield or Leech Seed would probably help the team function a little better.
+Clefable was added to compliment Chesnaught and to pick up where it lacks
+defensively. Clefable also carries Stealth Rock > Flamethrower. I felt this was
+okay since the team has Magnezone to trap steels but if you would feel more
+comfortable using flamethrower, give Aero SR > Roost. I needed a reliable hazard
+remover so I added Starmie to the team since it has recovery and a great move (
+Reflect Type) that gives it a way of dealing with mon's that would otherwise
+counter it. Charizard X is annoying so it's best to switch aggressively when
+your opponent has a zard.
+
+team-start-line
+Alakazam @ Life Orb
+Ability: Magic Guard
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Psychic
+- Focus Blast
+- Shadow Ball
+- Encore
+
+Chesnaught @ Leftovers
+Ability: Bulletproof
+EVs: 252 HP / 108 Def / 148 SpD
+Impish Nature
+- Spikes
+- Spiky Shield
+- Drain Punch
+- Synthesis
+
+Aerodactyl-Mega @ Aerodactylite
+Ability: Tough Claws
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Stone Edge
+- Aerial Ace
+- Aqua Tail
+- Roost
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 32 Def / 224 Spe
+Timid Nature
+- Scald
+- Reflect Type
+- Rapid Spin
+- Recover
+
+Magnezone @ Life Orb
+Ability: Magnet Pull
+EVs: 96 HP / 160 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power [Fire]
+- Flash Cannon
+- Substitute
+
+Clefable @ Leftovers
+Ability: Magic Guard
+EVs: 252 HP / 172 Def / 84 SpD
+Calm Nature
+- Stealth Rock
+- Moonblast
+- Soft-Boiled
+- Calm Mind
