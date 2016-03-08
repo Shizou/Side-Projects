@@ -1,4 +1,4 @@
-Side-Projects
+Mini-Projects
 =============
 
-Just some side projects that may or may not be useful.
+Just some mini projects that may or may not be useful.
